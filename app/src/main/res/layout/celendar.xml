@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 이 부분을 MaterialCalendarView로 교체 -->
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textViewRoomName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="모임 명: " />
+
+    <TextView
+        android:id="@+id/textViewPromiseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약속 날짜: " />
+
+    <TextView
+        android:id="@+id/textViewPromiseTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약속 시간: " />
+
+    <TextView
+        android:id="@+id/textViewPromiseMaxPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약속 최대 비용: " />
+
+    <TextView
+        android:id="@+id/textViewPromisePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약속 장소: " />
+
+    <Button
+        android:id="@+id/buttonSetPromise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약속 잡기" />
+    <Button
+        android:id="@+id/buttonJoinPromise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="약속 참가"
+        android:enabled="false"/>
+
+</LinearLayout>

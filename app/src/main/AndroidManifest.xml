@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SW_18"
+        tools:targetApi="31">
+        <activity android:name=".JoinMapActivity"></activity>
+        <activity android:name=".MyChatList"></activity>
+        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".ChatRoomActivity"></activity>
+        <activity android:name=".ChatListActivity"></activity>
+        <activity android:name=".Login"></activity>
+        <activity android:name=".Home"></activity>
+        <activity android:name=".MyGroup"></activity>
+        <activity android:name=".MyPage"></activity>
+        <activity android:name=".Volunteer"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 이 위치로 meta-data 태그를 이동하세요 -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value='AIzaSyAeGppBL39EwktdKOxEvlWdq26XKG1Yyq8' />
+
+    </application>
+</manifest>

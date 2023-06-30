@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green4"
+        android:gravity="center"
+        android:text="닫기" />
+
+
+    <EditText
+        android:id="@+id/editPromiseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="날짜 (예: 0630)" />
+
+    <EditText
+        android:id="@+id/editPromiseTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="시간 (예: 1300)" />
+
+    <EditText
+        android:id="@+id/editMaxPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="최대 가격" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/select_place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green4"
+            android:text="장소 검색" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green4"
+            android:text="저장" />
+
+    </LinearLayout>
+
+</LinearLayout>
