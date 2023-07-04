@@ -9,5 +9,9 @@
 ![image](https://github.com/jjw6712/hackaton_18/assets/91660287/263202ca-75c6-47f6-ad74-d15bc24781b1)
 ![image](https://github.com/jjw6712/hackaton_18/assets/91660287/71701e43-842a-487b-880e-16b919a7402e)
 ![image](https://github.com/jjw6712/hackaton_18/assets/91660287/2b8393d6-e3d9-41a3-beb2-7f77b2a383e0)
-https://github.com/jjw6712/hackaton_18/assets/91660287/c02178d5-f55e-47ce-b7cb-aa8981e5a06b
+
+
+https://github.com/jjw6712/hackaton_18/assets/91660287/53f47491-9950-40c8-b224-f43073cf26ad
+
+
 ![image](https://github.com/jjw6712/hackaton_18/assets/91660287/0a422eb0-efbe-4da0-9a61-01bdd542b95c)
